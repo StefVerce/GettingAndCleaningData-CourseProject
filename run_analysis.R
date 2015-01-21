@@ -12,9 +12,15 @@
 ## -------------------------------------------------------------------
 ## 0. Preliminary steps
 ## -------------------------------------------------------------------
-library(plyr)  ## loading library plyr BEFORE dplyr
-library(dplyr) 
-path="C:/Stéphane/Coursera/Data Science/GettingAndCleaningData/CourseProject"
+## it is assumed here that files are downloaded and unzipped as a 
+## separate process as it is not the goal of the assignment 
+## -------------------------------------------------------------------
+
+## loading library plyr BEFORE dplyr
+library(plyr)  
+library(dplyr)
+## setting the path
+path="C:/Stéphane/Coursera/Data Science/3-GettingAndCleaningData/CourseProject"
 setwd(path)
 ## -------------------------------------------------------------------
 ## 1. Merges the training and the test datasets 
@@ -78,15 +84,15 @@ names(df_data) <- gsub("gyro","gyroscope",names(df_data))   #
 names(df_data) <- gsub("mag","magnitude",names(df_data))    #
     
 ## -------------------------------------------------------------------
-## 5. Aggregating tidy data set 
+## 5. Aggregating tidy data set and writing file
 ## -------------------------------------------------------------------
 
 df_grouped <- df_data %>% 
                 group_by(subject,activity) %>% 
-                  summarise_each(funs(mean))
+                   summarise_each(funs(mean))
 
 ##
-## Output the tidy grouped dataset into a file
+## Output the tidy grouped dataset into a file in the current directory
 ##
 write.table(df_grouped, "HumanActivityRecognitionDataset.txt", row.names = FALSE, sep = "\t")
 
