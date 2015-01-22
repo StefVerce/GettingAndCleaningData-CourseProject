@@ -87,14 +87,14 @@ names(df_data) <- gsub("mag","magnitude",names(df_data))    #
 ## 5. Aggregating tidy data set and writing file
 ## -------------------------------------------------------------------
 
-df_grouped <- df_data %>% 
+df_tidy <- df_data %>% 
                 group_by(subject,activity) %>% 
                    summarise_each(funs(mean))
 
 ##
 ## Output the tidy grouped dataset into a file in the current directory
 ##
-write.table(df_grouped, "HumanActivityRecognitionDataset.txt", row.names = FALSE, sep = "\t")
+write.table(df_tidy, "HumanActivityRecognitionDataset.txt", row.names = FALSE, sep = "\t")
 
 
 
