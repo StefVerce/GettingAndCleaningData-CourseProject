@@ -12,15 +12,15 @@
 ## -------------------------------------------------------------------
 ## 0. Preliminary steps
 ## -------------------------------------------------------------------
-## it is assumed here that files are downloaded and unzipped as a 
-## separate process as it is not the goal of the assignment 
+## it is assumed here that files are downloaded and unzipped into a
+## common directory
 ## -------------------------------------------------------------------
 
 ## loading library plyr BEFORE dplyr
 library(plyr)  
 library(dplyr)
 ## setting the path
-path="C:/Stéphane/Coursera/Data Science/3-GettingAndCleaningData/CourseProject"
+path="C:/StÃ©phane/Coursera/Data Science/3-GettingAndCleaningData/CourseProject"
 setwd(path)
 ## -------------------------------------------------------------------
 ## 1. Merges the training and the test datasets 
