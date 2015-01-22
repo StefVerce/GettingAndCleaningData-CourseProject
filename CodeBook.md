@@ -81,9 +81,9 @@ HumanActivityRecognitionDataset.txt 224833 FALSE  666 2015-01-22 21:45:40 2014-1
 **freqbodyaccelerationmagnitudemean**    
 **freqbodyaccelerationmagnitudestd**     
 **freqbodyaccelerationjerkmagnitudemean**
-freqbodyaccelerationjerkmagnitudestd 
-freqbodygyroscopemagnitudemean       
-freqbodygyroscopemagnitudestd        
-freqbodygyroscopejerkmagnitudemean   
-freqbodygyroscopejerkmagnitudestd    
+**freqbodyaccelerationjerkmagnitudestd** 
+**freqbodygyroscopemagnitudemean**       
+**freqbodygyroscopemagnitudestd**        
+**freqbodygyroscopejerkmagnitudemean**   
+**freqbodygyroscopejerkmagnitudestd**    
 
