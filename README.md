@@ -24,7 +24,7 @@ These are the steps to follow in order to run the script `run_analysis.R`
   3. source the R file using `source("run_analysis.R")`
 
 ## Resulting file
-After running the script, a file named [HumanActivityRecognitionDataset.txt] is generated in the current directory (according the path file defined earlier).
+After running the script, a file named `HumanActivityRecognitionDataset.txt` is generated in the current directory (according the path file defined earlier).
 
 ## Codebook
 Information about the variables is provided in `CodeBook.md`.     
