@@ -19,12 +19,16 @@ The script `run_analysis.R` needs the libraries `plyr` and `dplyr`.
 
 ## Running the script
 These are the steps to follow in order to run the script `run_analysis.R`
-  1. Download the data files using the above link, extract and puts all files in the same directory
+  1. Download the data files using the above link, extract and locate all files in the same directory
+  2. Download from gitHub the file `run_analysis.R` into this directory
   2. Edit the run_analysis.R and replace the `path` with your own path
   3. source the R file using `source("run_analysis.R")`
 
-## Resulting file
-After running the script, a file named `HumanActivityRecognitionDataset.txt` is generated in the current directory (according the path file defined earlier).
+## Resulting objects
+
+After running the script, a file named `HumanActivityRecognitionDataset.txt` is generated in the current directory (according the path file defined earlier). This file is based on a data frame called `df_tidy`
+
+
 
 ## Codebook
 Information about the variables is provided in `CodeBook.md`.     
