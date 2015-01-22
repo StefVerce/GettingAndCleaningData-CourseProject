@@ -19,7 +19,7 @@ The script `run_analysis.R` needs the libraries `plyr` and `dplyr`.
 
 ## Running the script
 These are the steps to follow in order to run the script `run_analysis.R`
-  1. Download the date files using the above link 
+  1. Download the data files using the above link, extract and puts all files in the same directory
   2. Edit the run_analysis.R and replace the `path` with your own path
   3. source the R file using `source("run_analysis.R")`
 
