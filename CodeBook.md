@@ -16,9 +16,9 @@ HumanActivityRecognitionDataset.txt 224833 FALSE  666 2015-01-22 21:45:40 2014-1
 
 ## Variables description
 
-*subject*                              Identifier of the subject observed
+**subject**                              Identifier of the subject observed
 
-*activity*                             Activity (LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS)
+**activity**                             Activity (LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS)
 
 _timebodyaccelerationmeanx            
 _timebodyaccelerationmeany            
